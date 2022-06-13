@@ -38,7 +38,8 @@ function kontrolni_cena() {
         document.querySelector("#zaver").innerText = "Zadej částku!"
 }
 
-/* overeni zadavani  */
+
+
 $("#e_mail").keypress(function (event) {
     let znak = event.which;
     let overZnak = false;
@@ -48,3 +49,4 @@ $("#e_mail").keypress(function (event) {
     else if (97 <= znak && znak <= 122) { overZnak = true; }
     return overZnak;
 });
+
